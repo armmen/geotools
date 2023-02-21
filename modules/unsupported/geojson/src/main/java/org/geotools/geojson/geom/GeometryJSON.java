@@ -704,9 +704,9 @@ public class GeometryJSON {
                 }
                 sb.append("],");
             }
-            sb.setLength(sb.length() - 1);
 
             if (size > 1) {
+                sb.setLength(sb.length() - 1);
                 sb.append("]");
             }
 
